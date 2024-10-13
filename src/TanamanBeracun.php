@@ -10,7 +10,7 @@ class TanamanBeracun extends Tanaman {
         $this->tingkatRacun = $tingkatRacun;
     }
 
-    // Method untuk menampilkan informasi tanaman beracun
+    // Method untuk memperlihatkan informasi tanaman beracun
     public function info() {
         return parent::info() . " Ini adalah tanaman beracun dengan tingkat racun: {$this->tingkatRacun}.";
     }
